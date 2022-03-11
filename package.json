@@ -1,0 +1,28 @@
+{
+  "name": "mock-premier-league",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/Midedollars/mock-premier-league.git",
+  "author": "mide",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.5",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
